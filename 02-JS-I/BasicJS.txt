@@ -1,0 +1,39 @@
+1.
+* Variables.-
+Las variables en JavaScript se crean mediante la palabra reservada var. De esta formase puede realizar en JavaScript de la siguiente manera:
+var resultado = numero_1 + numero_2;
+La palabra reservada var solamente se debe indicar al definir por primera vez la variable, lo que se denomina declarar una variable. Cuando se utilizan las variables en el resto de instrucciones del script, solamente es necesario indicar su nombre.
+* Strings.- Para crear un objeto de la clase String lo único que hay que hacer es asignar un texto a una variable. El texto va entre comillas. Ejemplo 'Saludo'
+* Funciones (argumentos, `return`)
+Una función se debe definir con una sintaxis especial que vamos a conocer a continuación.
+
+function nombrefuncion (){ 
+   instrucciones de la función 
+   ... 
+}
+Primero se escribe la palabra function, reservada para este uso. Seguidamente se escribe el nombre de la función, que como los nombres de variables puede tener números, letras y algún carácter adicional como en guión bajo. A continuación se colocan entre llaves las distintas instrucciones de la función. Las llaves en el caso de las funciones no son opcionales, además es útil colocarlas siempre como se ve en el ejemplo, para que se reconozca fácilmente la estructura de instrucciones que engloba la función.
+* Declaraciones `if`
+IF es una estructura de control utilizada para tomar decisiones. Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión. Funciona de la siguiente manera, primero se evalúa una expresión, si da resultado positivo se realizan las acciones relacionadas con el caso positivo.
+if (expresión) { 
+   //acciones a realizar en caso positivo 
+   //... 
+} else { 
+   //acciones a realizar en caso negativo 
+   //... 
+}
+* Valores booleanos (`true`, `false`)
+Una de sus posibles utilidades es la de conseguir valores boleanos a partir de datos de cualquier otro tipo. 
+devuelve solo 2 valores o verdadero o falso
+ejemplo
+function menorque10(num) {
+  // Devuelve "true" si el argumento de la función "num" es menor que noventa
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  if (num < 10) {
+    return true;
+  }else{
+   return false;  
+  } 
+}
+si el valor ingresado esta entre 1 y 9 sera verdadero 
+si el valor ingresado es mayor a 10 sera falso
