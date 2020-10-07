@@ -1,0 +1,17 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces,  se utiliza cuando tenemos certeza  el número de veces que queremos que se ejecute.
+for (inicialización; condición; actualización) { 
+   	//sentencias a ejecutar en cada iteración 
+}
+* `&&`, `||`, `!`
+ Los operadores && y || regresan en realidad el valor de uno de los operandos especificados, por lo que si estos operadores se usan con valores no Boolean, posiblemente regresen un valor no Boolean.
+AND (&&) lógico	expr1 && expr2	
+Regresa expr1 si tal puede convertirse a false; de lo contrario, regresa expr2. De esta forma, cuando se usa con valores Boolean, && regresa true si ambos operandos son verdaderos; de lo contrario regresa false.
+
+OR (||) lógico	expr1 || expr2	
+Regresa expr1 si tal puede convertirse a true; de lo contrario, regresa expr2. De esta forma, cuando se usa con valores Boolean, || regresa true si cualquier operando es verdadero; pero si ambos son falsos, regresa "false".
+
+NOT (!) lógico	!expr	
+Regresa false si su único operando puede convertirse a true; de lo contrario, regresa true.
